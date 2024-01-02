@@ -1,5 +1,5 @@
 async function addSummary() {
-  let res = await fetch("../data.json");
+  let res = await fetch("data.json");
   let data = await res.json();
 
   const list = document.getElementById("summaryList")
